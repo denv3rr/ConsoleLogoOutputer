@@ -10,7 +10,7 @@ For example:
 
     -   string name (`std::string`), white space scroll delay   (`int`), and line scroll delay (`int`).
 
-    -   ````
+        ````
         void printASCIIArtScrolling(const std::string &asciiArt, int delayNonWhitespace, int delayLine)
         {
             // Code
@@ -18,11 +18,12 @@ For example:
 
         ````
 
-        This function scrolls through ASCII art character-by-character *and has a speed customizer for scrolling through both lines and whitespace at different speeds*. To edit these variables, simply navigate to `main.cpp`, go to that function, and change the timer values like so:
+    -   This function scrolls through ASCII art character-by-character *and has a speed customizer for scrolling through both lines and whitespace at different speeds*. To edit these variables, simply navigate to `main.cpp`, go to that function, and change the timer values like so:
 
         ````
         // seperet.com voodoo logo
         printASCIIArtScrolling(scroll_voodooASCII, 0, 50);
+        
         ````
 
 ## Compiling
