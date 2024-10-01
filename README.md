@@ -2,11 +2,11 @@
 
 Output ASCII text and logos to your console application with these simple, but modular functions.
 
-I have sample logos/art in the functions.cpp file - just edit those along with the scrolling timers.
+I have sample logos/art in the functions.cpp file - just edit those (scrolling timers, etc.).
 
 For example:
 
- -  ````
+-  ````
     void printASCIIArtScrolling(const std::string &asciiArt, int delayNonWhitespace, int delayLine)
     {
         // Code
@@ -23,5 +23,5 @@ For example:
 
 ## Compiling
 
-For testing, compile at the root directory with:
-`g++ -I ./ *.cpp`
+- For testing, compile at the root directory with: `g++ -I ./ *.cpp`
+- Then run the output/`.exe` file.
