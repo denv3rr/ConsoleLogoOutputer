@@ -5,6 +5,7 @@
 #include <chrono>
 #include <thread>
 #include <vector>
+#include <unistd.h>
 
 // Utility functions for time calculations and printing
 void printExecutionTime(const std::chrono::high_resolution_clock::time_point &start);
